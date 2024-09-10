@@ -1,0 +1,39 @@
+.butt-postaw {
+    position: fixed;
+    left: 2%;
+    top: 20%;
+}
+
+#p1 {
+    position: fixed;
+    left: 2%;
+    top: 10%;
+}
+
+#wynik {
+    position: fixed;
+    left: 2%;
+    top: 12%;
+}
+
+#druzyna1 {
+    position: fixed;
+    left: 2%;
+    top: 14%;
+}
+
+#druzyna2 {
+    position: fixed;
+    left: 2%;
+    top: 16%;
+}
+
+.logo {
+    position: fixed;
+    height: 125px;
+    left: 35%;
+}
+
+body {
+    height: 100%;
+}
