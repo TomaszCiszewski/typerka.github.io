@@ -49,3 +49,8 @@ body {
     left: 2%;
     top: 6%;
 }
+
+#check-circle-fill {
+    position: relative;
+    height: 100px;
+}
