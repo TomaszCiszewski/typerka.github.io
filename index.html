@@ -26,28 +26,20 @@
               </svg>
             <div id="liveAlertPlaceholder"></div>
             <button id="butt-wyjdz" type="button" class="btn btn-info" onclick="stawka()">Ustaw stawkę</button>
-            <button type="button" class="btn btn-secondary" id="liveAlertBtn" onclick="losuj()">Przewiduj</button>
+            <button id="butt-kurs" type="button" class="btn btn-info" onclick="kurs()">Ustaw kurs</button>
+            <button id="butt-kurs" type="button" class="btn btn-success" onclick="mozlwygr()">Oblicz możliwą wygraną</button>
+            <button type="button" class="btn btn-secondary" id="liveAlertBtn" onclick="losuj(), mozlwygr()">Przewiduj</button>
             <button id="butt-druz" type="button" class="btn btn-info" onclick="druzyny()">Drużyny</button>
             <script src="gamb1.js"></script>
             <script src="scriptsite.js"></script>
-            <script>
-                function stawka() {
-                    const ilosc = prompt("Podaj stawkę.");
-                    document.getElementById("p1").innerHTML = "Stawka wynosi: " + ilosc + "zł.";
-                }
-                function druzyny() {
-                    let druz = prompt("Podaj drużynę pierwszą.")
-                    let druz2 = prompt("Podaj drużynę drugą.")
-                    document.getElementById("druzyna1").innerHTML = "Drużyna pierwsza: " + druz;
-                    document.getElementById("druzyna2").innerHTML = "Drużyna druga: " + druz2;
-                }
-            </script>
         </div>
         <div>
             <p id="p1">Stawka wynosi: 0zł.</p>
+            <p id="kurs">Kurs wynosi: 0x</p>
             <p id="wynik">Obstaw na drużynę: </p>
             <p id="druzyna1">Drużyna pierwsza: </p>
             <p id="druzyna2">Drużyna druga: </p>
+            <p id="mozliwawygrana1">Możliwa wygrana: </p>
         </div>
     </div>
 </body>

@@ -4,3 +4,4 @@ function losuj() {
     // Wyświetlenie wyniku
     document.getElementById("wynik").innerHTML = "Obstaw na drużynę: " + wynik;
 }
+
